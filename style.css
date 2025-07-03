@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #202C36;
+}
+
+header{
+    background-color: #2B3844;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h4{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+input{
+margin: 30px 0;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2B3844;
+}
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background-color: #2B3844;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card p {
+  color: #cbd5e1;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
